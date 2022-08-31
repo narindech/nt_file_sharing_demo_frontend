@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "MN_MINI_BOLD";
+    src: local("MN_MINI_BOLD"), url(./assets/fonts/mn_mini_bold.ttf) format("truetype");
+}
+@font-face {
+    font-family: "MN_MINI";
+    src: local("MN_MINI"), url(./assets/fonts/mn_mini.ttf) format("truetype");
+}

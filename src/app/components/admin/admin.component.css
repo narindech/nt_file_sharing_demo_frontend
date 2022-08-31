@@ -1,0 +1,67 @@
+.toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #eeeee0;
+    color: white;
+    font-weight: 600;
+}
+.toolbar img {
+    margin: 0 16px;
+}
+
+/* Style buttons */
+.btn {
+    /* background-color: DodgerBlue; Blue background */
+    border: none; /* Remove borders */
+    color: black; /* White text */
+    /* padding: 12px 16px; Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: coral;
+    color: white
+  }
+
+.btn-upload {
+  /* background-color: DodgerBlue; Blue background */
+  border: none; /* Remove borders */
+  color: black; /* White text */
+  /* padding: 12px 16px; Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  margin-left: 5px;
+  margin-top: 5px;
+  color: #e0ffff;
+}
+  
+/* Darker background on mouse-over */
+.btn-upload:hover {
+  background-color: #5f4bd2;
+  color: white
+}
+
+.content-class {
+  margin-top: 100px;
+  width: 100%;
+}
+
+.logout-btn {
+  margin-top: 5px;
+  margin-left: 5px;
+  color: black; 
+  align-items: center; 
+  background-color: coral;
+}
+
+.logout-btn:hover {
+  color: white; 
+  background-color: #cc0000;
+}
