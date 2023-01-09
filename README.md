@@ -30,6 +30,13 @@ cd /nt_file_sharing_demo_frontend/
 npm install 
 ```
 
+## Troubleshooting
+If you experience some errors about permission denied when create or access files, folders or anything. You can fix with this command.
+```
+sudo chown -R $USER:$GROUP ~<directory>
+```
+replace it with your project folder. 
+
 ## Run Demo
 
 You need to go into your project folder. (In case you are already there, skip this command.)
